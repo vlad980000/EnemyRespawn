@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RespawnEnemy : MonoBehaviour
 {
-    [SerializeField] private GameObject _enemyPrefab;
+    [SerializeField] private Enemy _enemyPrefab;
     [SerializeField] private Transform[] _spawnPoints;
     [SerializeField] private float _secondsBetvenSpawn;
 
